@@ -114,7 +114,7 @@ const PerformanceMetrics = () => {
               <div className="text-purple-700 dark:text-purple-300 text-xs mt-1">GitHub</div>
             </a>
             <a
-              href="/SantoshCV.pdf"
+              href={`${import.meta.env.BASE_URL}SantoshCV.pdf`}
               download="SantoshCV.pdf"
               className="bg-yellow-100 hover:bg-yellow-200 dark:bg-yellow-800/30 dark:hover:bg-yellow-800/50 p-3 md:p-2 rounded text-center transition-colors border border-yellow-300 dark:border-yellow-600/30 min-h-[60px] md:min-h-0 flex flex-col items-center justify-center"
             >

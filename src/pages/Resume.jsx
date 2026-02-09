@@ -70,7 +70,7 @@ const Resume = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/SantoshCV.pdf"
+                href={`${import.meta.env.BASE_URL}SantoshCV.pdf`}
                 download="SantoshCV.pdf"
                 className="group btn-primary inline-flex items-center gap-2"
               >
@@ -146,7 +146,7 @@ const Resume = () => {
                   Get in Touch
                 </Link>
                 <a
-                  href="/SantoshCV.pdf"
+                  href={`${import.meta.env.BASE_URL}SantoshCV.pdf`}
                   download="SantoshCV.pdf"
                   className="btn-secondary"
                 >

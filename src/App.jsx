@@ -189,7 +189,7 @@ function App() {
                 <span className="text-blue-600 dark:text-blue-400">📁</span> Browse Files
               </button>
               <a
-                href="/SantoshCV.pdf"
+                href={`${import.meta.env.BASE_URL}SantoshCV.pdf`}
                 download="SantoshCV.pdf"
                 className="w-full text-left px-3 py-2 text-sm bg-gradient-to-r from-purple-600 to-blue-600 dark:from-purple-800 dark:to-blue-800 hover:from-purple-700 hover:to-blue-700 dark:hover:from-purple-700 dark:hover:to-blue-700 rounded border border-purple-500 dark:border-purple-600 transition-colors block text-white"
               >

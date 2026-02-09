@@ -85,12 +85,12 @@ function App() {
               <span className="text-gray-700 dark:text-gray-300">Loading portfolio modules...</span>
             </div>
             <div className="flex items-center gap-3 justify-center">
-              <div className="animate-pulse w-4 h-4 bg-green-600 dark:bg-green-400 rounded-full"></div>
-              <span className="text-gray-700 dark:text-gray-300">Initializing React environment...</span>
+              <div className="animate-bounce w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full"></div>
+              <span className="text-gray-700 dark:text-gray-300">Connecting to Backend Services...</span>
             </div>
             <div className="flex items-center gap-3 justify-center">
-              <div className="animate-bounce w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full"></div>
-              <span className="text-gray-700 dark:text-gray-300">Connecting to Syscloud systems...</span>
+              <div className="animate-pulse w-4 h-4 bg-green-600 dark:bg-green-400 rounded-full"></div>
+              <span className="text-gray-700 dark:text-gray-300">Initializing React environment...</span>
             </div>
             <div className="flex items-center gap-3 justify-center">
               <div className="w-4 h-4 bg-yellow-600 dark:bg-yellow-400 rounded-full"></div>

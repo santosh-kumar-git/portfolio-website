@@ -5,8 +5,7 @@ import { ThemeProvider } from './context/ThemeContext'
 import App from './App.jsx'
 import './index.css'
 
-// Use '/' for custom domain (santosh.dev)
-const basename = '/'
+const basename = '/portfolio-website/'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
